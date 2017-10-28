@@ -1,0 +1,6 @@
+kern/x86_64/efi/kernel_exec-callwrap.o: kern/x86_64/efi/callwrap.S \
+ ../config.h ../include/grub/symbol.h
+
+../config.h:
+
+../include/grub/symbol.h:

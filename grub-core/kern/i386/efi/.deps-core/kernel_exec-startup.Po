@@ -1,0 +1,6 @@
+kern/i386/efi/kernel_exec-startup.o: kern/i386/efi/startup.S ../config.h \
+ ../include/grub/symbol.h
+
+../config.h:
+
+../include/grub/symbol.h:
